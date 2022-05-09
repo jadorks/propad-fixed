@@ -1,0 +1,43 @@
+.connectWallet {
+  max-width: 240px;
+  padding: 0.6rem;
+  padding-left: 2rem;
+  padding-right: 0.6rem;
+  gap: 14px;
+  background: #000000;
+  @apply flex items-center justify-between rounded-2xl;
+  @apply bg-clip-border border-2 border-transparent relative;
+}
+
+.connectWallet::before {
+  content: "";
+  z-index: -1;
+  margin: -3px;
+  border-radius: inherit;
+  @apply absolute;
+  @apply top-0 bottom-0 right-0 left-0;
+  background: linear-gradient(to right bottom, #0466C8 2.49%, rgba(4, 102, 200, 0) 31.83%, rgba(4, 102, 200, 0) 73.12%, #0466C8 98.02%);
+
+
+}
+
+.connectWallet__text {
+  font-size: 16px;
+  line-height: 160%;
+  overflow: hidden;
+  @apply text-white font-sans font-medium;
+}
+
+.connectWallet__text_span {
+  font-size: 13px;
+}
+
+.connectWallet_button {
+  padding: 1.2rem 3rem;
+}
+
+.connectWallet__network {
+  font-size: 12px;
+  line-height: 160%;
+  @apply text-white font-sans font-medium;
+}

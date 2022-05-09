@@ -1,0 +1,10 @@
+rganache
+tconsole
+*.swp
+node_modules
+tags
+dist
+.DS_STORE
+tags.*
+**/.env
+.metals

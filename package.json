@@ -1,0 +1,24 @@
+{
+  "name": "arbicrypt",
+  "version": "1.0.0",
+  "description": "Liquidity locker and lauchpad on Arbitrum network",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "@walletconnect/web3-provider": "^1.6.6",
+    "dotenv": "^10.0.0",
+    "ganache-time-traveler": "^1.0.16",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.15"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "deploy": "truffle migrate --reset"
+  }
+}

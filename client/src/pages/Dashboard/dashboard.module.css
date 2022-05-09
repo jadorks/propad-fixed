@@ -1,0 +1,22 @@
+.container {
+  @apply w-full min-h-screen flex relative;
+}
+
+.header {
+  padding-top: 24px;
+  @apply flex w-full items-center justify-end;
+}
+
+.sidebar {
+  width: 277px;
+  @apply sticky min-h-screen h-full top-0;
+}
+
+.main {
+  @apply w-full relative mx-auto md:mb-60 min-h-screen;
+  @apply 2xl:max-w-screen-xl xl:max-w-screen-lg px-8;
+}
+
+.footer {
+  @apply w-full sticky bottom-0;
+}

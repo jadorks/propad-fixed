@@ -1,0 +1,44 @@
+.content__top {
+  @apply flex gap-7;
+  @apply py-20;
+}
+
+.content__top_container {
+  @apply flex flex-col lg:w-1/2;
+}
+
+.content_top_head {
+  font-size: 35px;
+  line-height: 51px;
+  @apply text-white font-sans font-bold;
+  @apply mt-32;
+}
+
+.content_top_text {
+  font-size: 14px;
+  line-height: 28.8px;
+  @apply text-white font-sans pt-3 font-light;
+}
+
+.content_illustration {
+}
+
+.new_lock {
+  @apply py-6 px-12 gap-4;
+}
+
+.content__mid {
+  @apply flex items-center justify-between md:px-20 md:py-10;
+}
+
+.content__mid_lp {
+  font-size: 22px;
+  @apply text-white font-sans font-semibold;
+}
+
+.content__mid_search {
+  @apply w-1/2;
+}
+
+.content__table {
+}
